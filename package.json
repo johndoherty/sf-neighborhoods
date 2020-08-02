@@ -2,13 +2,21 @@
   "name": "sf-neighborhoods",
   "version": "1.0.0",
   "description": "Visualization of SF COVID Data",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/* --strictNullChecks --outDir public",
+    "dev": "npm run build && node dev.js",
+    "retreive": "npm run build && node public/retreive.js"
   },
   "author": "John Doherty",
   "license": "ISC",
   "dependencies": {
     "xhr": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.7",
+    "@types/node": "^14.0.27",
+    "http-server": "^0.12.3"
   }
 }
