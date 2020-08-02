@@ -1,0 +1,14 @@
+{
+  "name": "sf-neighborhoods",
+  "version": "1.0.0",
+  "description": "Visualization of SF COVID Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Doherty",
+  "license": "ISC",
+  "dependencies": {
+    "xhr": "^2.5.0"
+  }
+}
