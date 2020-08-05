@@ -7,6 +7,7 @@ possible. I also want to make it easier to vizualize the finer granularity data 
 ## Current status:
 
 - [x] Script to query and accumulate SF data API
+- [ ] Figure out why cron job is not working
 - [ ] MapBox visualization for geo data
 - [ ] Time series visualization per neighborhood
 - [ ] UI to select location and view historical trends
